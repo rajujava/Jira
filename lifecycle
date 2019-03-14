@@ -1,0 +1,168 @@
+What is Jira?
+	Issues tracking
+	Bug Tracking
+	Planning
+	Project mgmt
+	Task mgmt
+	Agile Dev
+	Scrum
+	ServiceDesk
+
+	From Atlassion
+	Dev in Java
+	
+Other tool
+	Trello 
+	Servicenow
+	Remedy
+  Bamboo
+	Jira
+	Bitbucket --> Integ -> Jira
+	Fisheye
+	Crusible
+
+Tracking
+		WHO | WHAT | HOW THE STATUS | IMPACT
+    
+How to install jira?
+	JRE JDK
+	$ yum install wget -y
+	http://www.scmgalaxy.com/tutorials/complete-guide-of-java-installation-in-linux/
+	wget -c --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jdk-8u131-linux-x64.rpm
+
+	> cd /opt/
+  	> ls
+	> wget -c --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/opub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jdk-8u131-linux-x64.rpm
+	> rpm -ivh jdk-8u131-linux-x64.rpm
+
+
+
+	Download zip  of Jira
+	https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-software-7.8.1-x64.bin
+	[PRB]https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-software-7.8.1.tar.gz
+	Start it
+
+RHEL | CENTOS
+
+How to stop / Start
+
+/etc/init.d/jira stop
+/etc/init.d/jira start
+ps -eaf | grep jira
+
+
+INTEGRATION
+
+JIRA -> GIT -->
+JIRA -> JENKINS
+
+Task 1
+====================================
+Add a new Issues Type - 
+
+Task 2
+====================================
+Add a new Field 
+
+
+Task 3
+====================================
+Customize the workflow
+
+In Review - Post Review
+
+
+Jira Integ Github
+
+Step 1
+	Using LDAP
+	Add Users and Group
+
+Step 2
+	Adding SMTP
+
+Step 3
+	Create a Proj
+
+Step 4
+	Create A Ticket
+========================s===
+4GB - 8Gb
+
+Ec2--- Stop a Instance -> Change a T2 Type -4- 8GB
+
+===============================
+/etc/init.d/jira start
+	Tomcat -> Jira
+======================================
+http://13.233.204.134:8080/secure/MyJiraHome.jspa
+13.234.114.143
+	
+
+Tomcat
+	Jira
+	Jenkins
+
+======================================
+WEB SERVER --> APP Srver --> 			DB SERVER
+======================================
+APACHE		TOMCAT(Servelet Container)	Engine
+NGNIX		WELLOGIC
+		WEB
+		JBOSS
+
+			JACOCO -
+				inxe
+				exclusion
+======================================
+
+LMS - Docker
+LMS - Kubernetss
+=========================================
+Roles & Responsibilities
+-----------------------------------------
+Jira Admin	-> DevOps
+Jira Developer
+Jira Scrum Master
+Jira ServiceDesk
+	Jira Admin
+		USER MGMT
+		GROUP mgmt
+		backup
+		Security
+		Queque
+		Db backup/Restoe
+	Customization
+		Prj - Field -> Workflow
+=======================
+Project = AbhiX
+	BI
+	Archi
+	Dev
+		Eclipse - Coding
+				Maven
+		Analys - SonarLint
+		Push - Git
+-------------------------
+	Jenkins
+		ALL CODE
+		ALL AVEN
+		ONE PACKE
+================================
+Atlassion
+================================
+PER USER
+	
+		
+	QA
+========================
+Jenkins -> Build -> Create a 
+=============================
+Jira from one server to Another server
+=========================================
+Take a Back up of DATA basee
+List downa  changes of Ads on.
+----------------------------------
+
+
+Restore ---> 
